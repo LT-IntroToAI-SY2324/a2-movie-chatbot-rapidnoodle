@@ -12,9 +12,10 @@ This assignment is about learning and applying the while loop and iterating thro
 
 ## Reflection Questions
 1. What was difficult for you while completing the match function?
-
-
+I found it difficult writing the functionality for the '%' pattern case because it could return a multitude of words or none at all.
+This means that I had to write specific cases for each condition, but I commented each section, so the code doesn't look too messy.
 
 2. Explain how you could use the match function for extracting information from a movie database.
-
-
+I could retrieve movies with Robert Downey Jr (or any actor) playing in it from a database with the pattern of
+['what', 'movies', 'have', '%', 'in', 'it'] and a source of ['what', 'movies', 'have', 'robert', 'downey', 'jr', 'in', 'it'].
+I would insert this information into my match function and extract the actor to call an API and retrieve movies with that actor in it.
